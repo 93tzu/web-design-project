@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Contact RUI TENG SmartLight for smart lighting product inquiries, project support, and Matter lighting information.">
+
+    <meta name="keywords" content="RUI TENG, contact, smart lighting inquiry, Matter lighting, LED project support">
+
+    <meta name="author" content="Tzu-Ying Chang">
+
+    <title>Contact - RUI TENG SmartLight</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">
+        <img src="images/logo.png" alt="RUI TENG SmartLight logo">
+        <span>RUI TENG SmartLight</span>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Start Here</a></li>
+            <li><a href="matter.html">What is Matter?</a></li>
+            <li><a href="gallery.html">Products</a></li>
+            <li><a href="media.html">Media</a></li>
+            <li><a href="data.html">Data</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="troubleshooting.html">Troubleshooting</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="contact-page">
+    <section class="container">
+
+        <div class="page-head">
+            <h1>Contact Us</h1>
+            <p class="subtitle">
+                Send us your smart lighting inquiry, project needs, or Matter product questions.
+            </p>
+        </div>
+
+        <section class="contact-layout">
+
+            <article class="contact-info">
+                <h2>Project Support</h2>
+
+                <p>
+                    RUI TENG SmartLight provides product information for LED modules,
+                    dimming drivers, outdoor lighting, and Matter-enabled smart lighting control.
+                </p>
+
+                <p>
+                    For direct email communication, contact us at:
+                    <a href="mailto:ruiteng.kevin@gmail.com">ruiteng.kevin@gmail.com</a>
+                </p>
+
+                <aside class="contact-note">
+                    <h3>Before Sending</h3>
+                    <p>
+                        Please include your project type, product interest, estimated quantity,
+                        and installation environment. This helps us understand your lighting needs
+                        more clearly.
+                    </p>
+                </aside>
+            </article>
+
+            <section class="contact-form-section">
+                <h2>Inquiry Form</h2>
+
+                <form id="contactForm" class="contact-form" action="#" method="post">
+
+                    <div class="form-group">
+                        <label for="fullName">Full Name</label>
+                        <input
+                                type="text"
+                                id="fullName"
+                                name="fullName"
+                                placeholder="Enter your full name"
+                                required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="example@email.com"
+                                required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input
+                                type="tel"
+                                id="phone"
+                                name="phone"
+                                placeholder="+886 900 000 000"
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="projectDate">Expected Project Date</label>
+                        <input
+                                type="date"
+                                id="projectDate"
+                                name="projectDate"
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="quantity">Estimated Quantity</label>
+                        <input
+                                type="number"
+                                id="quantity"
+                                name="quantity"
+                                min="1"
+                                max="1000"
+                                placeholder="Example: 20"
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="productType">Product Interest</label>
+                        <select id="productType" name="productType" required>
+                            <option value="">Please select one option</option>
+                            <option value="matter-controller">Matter LED Controller</option>
+                            <option value="led-module">LED Module</option>
+                            <option value="triac-driver">TRIAC AC Dimming Driver</option>
+                            <option value="outdoor-lighting">Outdoor Lighting</option>
+                            <option value="led-strip">IP67 LED Strip Light</option>
+                        </select>
+                    </div>
+
+                    <fieldset class="form-group">
+                        <legend>Project Type</legend>
+
+                        <div class="choice-row">
+                            <input
+                                    type="radio"
+                                    id="residential"
+                                    name="projectType"
+                                    value="residential"
+                            >
+                            <label for="residential">Residential</label>
+                        </div>
+
+                        <div class="choice-row">
+                            <input
+                                    type="radio"
+                                    id="commercial"
+                                    name="projectType"
+                                    value="commercial"
+                            >
+                            <label for="commercial">Commercial</label>
+                        </div>
+
+                        <div class="choice-row">
+                            <input
+                                    type="radio"
+                                    id="outdoorProject"
+                                    name="projectType"
+                                    value="outdoor"
+                            >
+                            <label for="outdoorProject">Outdoor / Landscape</label>
+                        </div>
+                    </fieldset>
+
+                    <div class="form-group">
+                        <label for="message">Project Message</label>
+                        <textarea
+                                id="message"
+                                name="message"
+                                rows="6"
+                                placeholder="Tell us about your project needs..."
+                                required
+                        ></textarea>
+                    </div>
+
+                    <div class="choice-row form-agreement">
+                        <input
+                                type="checkbox"
+                                id="agree"
+                                name="agree"
+                                required
+                        >
+                        <label for="agree">
+                            I understand this is a student website project and the form is for demonstration purposes.
+                        </label>
+                    </div>
+
+                    <button type="submit" id="submitInquiry" class="btn primary">
+                        Submit Inquiry
+                    </button>
+
+                </form>
+            </section>
+
+        </section>
+
+        <section class="social-section">
+            <h2>Connect with Us</h2>
+
+            <p>
+                Follow related smart lighting and product updates through social platforms.
+            </p>
+
+            <div class="social-icons">
+                <a
+                        href="https://line.me/ti/p/3XE7wCfpUl"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Open RUI TENG LINE contact in a new tab"
+                >
+                    <img src="images/line.svg" alt="LINE social media icon">
+                    <span>LINE</span>
+                </a>
+
+                <a
+                        href="https://www.youtube.com/channel/UC_UeNEoP41z47XPFVHf0JTA"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Open RUI TENG YouTube channel in a new tab"
+                >
+                    <img src="images/yt.svg" alt="YouTube social media icon">
+                    <span>YouTube</span>
+                </a>
+            </div>
+        </section>
+
+    </section>
+</main>
+
+<footer class="footer">
+    <p>© 2026 RUI TENG OPTO TECHNOLOGY CO., LTD. Designed &amp; Built by Tzu-Ying Chang.</p>
+</footer>
+
+<script src="js/scripts.js"></script>
+
+</body>
+</html>
